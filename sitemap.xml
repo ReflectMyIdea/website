@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.reflectmyidea.com/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <!-- DocuGen Product Page -->
+  <url>
+    <loc>https://www.reflectmyidea.com/DocuGen/docugen.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- XLLocker Product Page -->
+  <url>
+    <loc>https://www.reflectmyidea.com/XLLocker/xllocker.html</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+</urlset>
+
