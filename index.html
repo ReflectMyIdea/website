@@ -31,14 +31,32 @@
         "Report Automation",    
         "Automated Compliant Reporting",
         "Excel Data Security",
-	  "Data Protection",
+	    "Data Protection",
         "Legacy System Integration",
-	  "Windows Active Directory Integration",
-	  "Multi-Factor Authentication",
-	  "TOTP (time-based one-time password)",
-	  "Microsoft Authenticator app"
+	    "Windows Active Directory Integration",
+	    "Multi-Factor Authentication",
+	    "TOTP (time-based one-time password)",
+	    "Microsoft Authenticator app"
 	  ],
-	    "mainEntityOfPage": {
+	  "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 4.8,
+          "bestRating": 5
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Samit"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.7,
+        "reviewCount": 89
+      },
+	  
+  "mainEntityOfPage": {
     "@type": "WebSite",
     "@id": "https://reflectmyidea.com",
     "url": "https://www.reflectmyidea.com/",
@@ -101,6 +119,9 @@
       "description": "Turns existing Word templates and Excel data into compliant, locked enterprise reports in seconds.",
       "offers": {
         "@type": "AggregateOffer",
+		"offerCount": 2,
+        "lowPrice": 749.99,
+        "highPrice": 1479.99,
         "priceCurrency": "USD",
         "description": "Available in two configurations: Option A (Independent Portable Excel File) and Option B (Enterprise Web Application with role-based access control). Pricing available via custom proof-of-concept request.",
         "offers": [
@@ -108,14 +129,14 @@
             "@type": "Offer",
             "name": "DocuGen Option A: Independent Excel File",
             "priceCurrency": "USD",
-			"price": "749.99",
+			"price": 749.99,
             "description": "Portable, macro-powered Excel file with no new infrastructure required."
           },
           {
             "@type": "Offer",
 		    "name": "DocuGen Option B: Enterprise Web Application",
             "priceCurrency": "USD",
-			"price": "1479.99",
+			"price": 1479.99,
             "description": "Secure multi-user web application deployed on-premise or cloud with full audit trails."
           }
         ]
@@ -132,8 +153,10 @@
       "description": "Enterprise-grade protection Excel COM add-in providing domain-locked security, proprietary formula protection, and centralized access control via Active Directory.",
       "offers": {
         "@type": "Offer",
+		"offerCount": 1,
+        "lowPrice": 249.99,
+        "highPrice": 649.99,
         "priceCurrency": "USD",
-	    "price": "249.99",
         "description": "Enterprise licensing tailored to user count and deployment scale. Includes custom integration assistance. Free customized risk-free proof-of-concept available upon request."
       }
     }
