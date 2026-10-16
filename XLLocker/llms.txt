@@ -1,0 +1,40 @@
+# XLLocker by ReflectMyIdea
+
+Excel Add-in for secured data sharing
+An Excel COM add-in providing domain-locked security, proprietary formula protection, and centralized real-time access control via Windows Active Directory. Removes password sharing entirely by utilizing corporate network credentials.
+
+## keywords
+file locker, excel protection, data protection, sensitive data protection, confidential records protection, finance modeling, business secrets protection, historical data protection, data encryption, data loss prevention, IPR protection, intellectual property protection, Hardware Lock, Domain Lock, AD Group Lock, MFA (TOTP), time-based one-time password, Microsoft Authenticator, Google Authenticator, Life Sciences Reports, CROs Financial Banking, retainer agreements records, employment contracts records, secured data sharing, formula protection, time to market, reflectcode, reflect code, Artificial Intelligence
+
+## Features
+Native Excel ribbon add-in integration
+Centralised control via Active Directory groups
+System hardware-based locking capabilities
+Network-based Domain Locking
+Multi-Factor Authentication (TOTP via Microsoft Authenticator)
+Custom authorization server callback logic
+Real-time access and authorization audit logging
+Automated 20-minute recurring permission revalidation
+
+## Type of locks
+Hardware Lock : Files can be opened on specific authorized system only.
+Domain Lock : Only users logged in with corporate network domain credentials can open the file.
+AD Group Lock : Only users who are members of a specific AD group (HR, Accounts, etc.) can open the file.
+MFA (TOTP) : TOTP (time-based one-time password) via the Microsoft Authenticator app, for an extra verification step.
+Custom Lock : Any authorisation process e.g. calling your own corporate authorization server to fetch and enforce access permissions.
+Real time activity log : Events such as File open/close, Authorization status, Unauthorized access to central server in real time.
+Centralized control : Your Administration team stays fully in control.  e.g. if employee in HR department resigns, Admin simply removes him from the HR AD group, their access to the locked Excel file is revoked immediately. 
+Periodic recheck : The add-in also revalidates authorization every 20 minutes, so even a file that's already open will re-lock shortly after IT removes access.
+
+## Industries
+* Life Sciences, CROs : CSRs data, protocol information, client records, consent data, FDA/EMA compliance data.
+* Financial, Banking : Loan records, KYC/AML data, Financial Models, Regulatory formulas, Risk assessment formulas.
+* Legal Services : NDA records, SOW checklist, retainer agreements points, employment contract list.
+* Healthcare : HIPAA check list, Business Associate data, clinical trial data.
+* IT, Software : Software license code, SLA calculations, vendor list, compliance checklist.
+* Real Estate, Construction : Inventory list, Price list, Client list, sub-contractor data, procurement data, safety reports.
+* Logistics, Supply Chain : Client list, Business rules, SLA data.
+* Government, Public Sector : Tender records, agency records, statutory compliance checklist.
+
+
+

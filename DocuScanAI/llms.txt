@@ -1,0 +1,43 @@
+# DocuScanAI by ReflectMyIdea
+
+## AI OCR  and Document Capture Software. Reads handwritten and printed entries from scanned forms and receipts and records them in your own system format, flagging uncertain values for review.
+
+* Works with your existing printed forms and receipts
+* Field template defined once per form
+* Handwritten and printed text recognition
+* Automatic alignment of tilted or shifted scans
+* Validation by field type (dates, amounts, IDs)
+* AI flags Low-confidence values for review
+* Cloud OCR or offline OCR option
+* Export to your own Excel layout
+		
+### Turns existing Word templates and Excel data into compliant, locked enterprise reports in seconds. Automates compliance reports, agreements, MOUs, NDAs, and SLAs. An enterprise-grade document automation pipeline that eliminates manual drafting errors by generating validated reports from Word templates and Excel workbooks.
+
+keywords : OCR, AI OCR , document scanning, AI document scanning , handwriting recognition, AI handwriting recognition, scanned forms to Excel, data entry automation, AI data entry automation, receipt digitisation, AI receipt digitisation, form data capture, intelligent document processing, Azure AI Document Intelligence, offline OCR, AI offline OCR, paper to data, Excel automation
+
+Re-typing handwritten receipts, application forms is slow, time-consuming, repetitive, and prone to errors. Many business operations still rely on paper-based records, leaving valuable information trapped in physical documents until it is manually digitized. This slows down workflows, increases administrative effort, and makes data harder to access, process, and use efficiently.
+
+DocuScanAI is offered as a customized software development service that extends our core technology to build an internal tool tailored to your business needs. The solution is designed around your existing forms, integrates with your legacy systems, and is deployed on your server, giving you a solution that fits your workflows and infrastructure.
+
+Scanned PDF / Image / WebCam + OCR & AI validation + Human correction = Data in your system
+
+1. Scan & upload : Upload scanned multi page PDFs of your existing forms or receipts. No change to your paper format is needed.
+2. Align & locate fields : The scan is straightened and each field is located using the template you defined once.</p></div>
+3. Read & validate : Handwritten and printed entries are read and checked by field type, such as dates, amounts and IDs.</p></div>
+4. Review : Low-confidence values are flagged for a quick check and in-place correction
+5. Export : Rows are exported to your own Excel layout
+
+## Additional Features
+Highly configurable system, can be updated for any source of input, any OCR provider, save values directly to your legacy sustem.
+Your team stays in control. Values with low confidence are flagged for review before they reach in your system. 
+We validate the setup on your own sample documents during a risk-free proof of concept.
+
+## Industries
+* Life Sciences and CROs : Raw-data sheets, sample receipt registers, consent form entries.
+* Financial and Banking : Application forms, deposit slips, paper receipts, KYC forms.
+* Legal Services : Client intake forms, acknowledgement forms, registers.
+* Healthcare : Patient registration, lab requisition and consent forms.
+* IT and Software : Asset handover, access request and inventory forms.
+* Real Estate and Construction : Housing society receipts, material receipt notes, site checklists.
+* Logistics and Supply Chain : Delivery slips, gate-entry registers, weighbridge slips.
+* Government and Public Sector : Application forms, citizen-service forms, statutory registers.

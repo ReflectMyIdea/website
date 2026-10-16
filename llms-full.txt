@@ -1,0 +1,50 @@
+# ReflectMyIdea
+
+## TURN VISION INTO REALITY
+
+### ReflectMyIdea helps enterprises turn their vision to mordenize their legacy system into reality by using latest technology and building solution that seamlessly integrate with their legacy system with far less time and cost than a full replacement. Two of many successful example are DocuGen, DocuScanAI and XLLocker.
+
+
+- Built around your problem, Reuse existing system, continue the legacy process and improve with less risk, less retraining, and less disruption. We rarely want to throw away what works. We want to continue the legacy process and improve<br>with less risk, less retraining, and less disruption.
+
+1 Feel the pain first-hand : We dive into your legacy system and experience the friction directly, not just via meetings. Understanding the problem clearly is the only path to an acceptable solution.
+2 Research & prove it : We identify tools that integrate cleanly with your system, then build multiple Proof-of-Concepts so you can validate the approach before committing to anything.
+3 Build step by step : After alignment, we implement incrementally, each step is small, reviewable, and low-risk. No big-bang cutover.
+4 Empower your team : Shortcuts, parameterised steps, custom report formats, small features that dramatically reduce daily effort and ensure genuine adoption.
+
+Legacy systems is improved with far less time and cost than a full replacement.
+	
+	
+## DocuGen : For paperwork that can't afford errors.
+
+### DocuGen turns your existing Word templates and Excel data into compliant, locked reports — in seconds.
+DocuGen turns your existing Word templates and Excel data into compliant, locked reports — in seconds. Generated with confidence.
+
+## DocuScanAI : AI OCR  and Document Capture Software
+
+### Reads handwritten and printed entries from scanned forms and receipts and records them in your own system format, flagging uncertain values for review.
+DocuScanAI automates data capture from scanned documents. It extracts individual fields from handwritten or printed records and maps the captured data directly to the appropriate fields in your existing system. Uncertain values are automatically flagged for review, allowing your team to focus only on entries that need verification.
+
+## XLLocker : Domain-Locked Excel Security
+
+### XLLocker removes password sharing entirely. It's an Excel COM add-in that installs directly into Excel, adds a dedicated ribbon tab, and controls exactly who can open a protected file — centrally, and in real time, using your existing Windows Active Directory
+Excel is where most enterprises keep their most sensitive data — confidential records, business secrets, historical data and proprietary formulas that are genuine Intellectual Property. Password protection alone doesn't cut it: the moment a file is shared for collaboration, the password travels with it, and nothing stops it reaching someone unauthorised.
+
+## Industries
+Our products are valuable wherever strict regulatory, legal, or operational document requirements exist.
+
+### Life Sciences , CROs : CSRs, protocol amendments, informed consent forms, FDA/EMA compliance documentation
+
+### Financial , Banking : Loan agreements, KYC/AML reporting, RBI regulatory filings, risk assessment reports.
+
+### Legal Services : High-volume NDAs, SOWs, retainer agreements, employment contracts.
+
+### Healthcare : HIPAA disclosures, Business Associate Agreements, clinical trial agreements.
+
+### IT , Software : Software licensing, technical SLAs, DPAs, vendor NDAs, ISO/SOC compliance.
+
+### Real Estate , Construction : Lease agreements, sub-contractor contracts, procurement MOUs, safety reports.
+
+### Logistics , Supply Chain : Freight forwarding agreements, customs compliance, vendor SLAs.
+
+### Government , Public Sector : Tender documents, audit reports, inter-agency MOUs, statutory compliance reporting.

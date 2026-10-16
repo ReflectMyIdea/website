@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://www.reflectmyidea.com/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
@@ -11,7 +11,15 @@
   <!-- DocuGen Product Page -->
   <url>
     <loc>https://www.reflectmyidea.com/DocuGen/docugen.html</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- DocuScanAI Product Page -->
+  <url>
+    <loc>https://www.reflectmyidea.com/DocuScanAI/index.html</loc>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -19,7 +27,7 @@
   <!-- XLLocker Product Page -->
   <url>
     <loc>https://www.reflectmyidea.com/XLLocker/xllocker.html</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>

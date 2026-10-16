@@ -1,0 +1,38 @@
+# ReflectMyIdea
+
+## TURN VISION INTO REALITY
+
+### ReflectMyIdea helps enterprises turn their vision to mordenize their legacy system into reality by using latest technology and building solution that seamlessly integrate with their legacy system with far less time and cost than a full replacement. Two of many successful example are DocuGen, DocuScanAI and XLLocker.
+
+
+- Built around your problem, Reuse existing system, continue the legacy process and improve with less risk, less retraining, and less disruption
+
+## DocuGen : For paperwork that can't afford errors.
+
+### DocuGen turns your existing Word templates and Excel data into compliant, locked reports — in seconds.
+
+## DocuScanAI : AI OCR  and Document Capture Software
+
+### Reads handwritten and printed entries from scanned forms and receipts and records them in your own system format, flagging uncertain values for review.
+
+## XLLocker : Domain-Locked Excel Security
+
+### XLLocker removes password sharing entirely. It's an Excel COM add-in that installs directly into Excel, adds a dedicated ribbon tab, and controls exactly who can open a protected file — centrally, and in real time, using your existing Windows Active Directory
+
+## Industries
+
+### Life Sciences , CROs : CSRs, protocol amendments, informed consent forms, FDA/EMA compliance documentation
+
+### Financial , Banking : Loan agreements, KYC/AML reporting, RBI regulatory filings, risk assessment reports.
+
+### Legal Services : High-volume NDAs, SOWs, retainer agreements, employment contracts.
+
+### Healthcare : HIPAA disclosures, Business Associate Agreements, clinical trial agreements.
+
+### IT , Software : Software licensing, technical SLAs, DPAs, vendor NDAs, ISO/SOC compliance.
+
+### Real Estate , Construction : Lease agreements, sub-contractor contracts, procurement MOUs, safety reports.
+
+### Logistics , Supply Chain : Freight forwarding agreements, customs compliance, vendor SLAs.
+
+### Government , Public Sector : Tender documents, audit reports, inter-agency MOUs, statutory compliance reporting.

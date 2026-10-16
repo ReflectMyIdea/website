@@ -26,7 +26,7 @@
       "name": "ReflectMyIdea",
       "url": "https://reflectmyidea.com",
       "logo": "https://reflectmyidea.comlogo.png",
-      "description": "ReflectMyIdea helps enterprises turn their vision to mordenize their legacy system into reality by using latest technology and building solution that seamlessly integrate with their legacy system with far less time and cost than a full replacement. Two of many successful example are DocuGen and XLLocker.",
+      "description": "ReflectMyIdea helps enterprises turn their vision to mordenize their legacy system into reality by using latest technology and building solution that seamlessly integrate with their legacy system with far less time and cost than a full replacement. Two of many successful example are DocuGen, DocuScanAI and XLLocker.",
       "knowsAbout": [
         "Enterprise Software Development",
         "Report Automation",    
@@ -74,6 +74,15 @@
           "name": "DocuGen",
           "description": "Turns existing Word templates and Excel data into compliant, locked enterprise reports in seconds.",
           "applicationCategory": "BusinessApplication"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "SoftwareApplication",
+          "name": "DocuScanXL",
+          "description": "Reads handwritten and printed entries from scanned forms and receipts and records them in your own system format, flagging uncertain values for review.",
+          "applicationCategory": "SecurityApplication"
         }
       },
       {
@@ -145,9 +154,27 @@
     },
     {
       "@type": "SoftwareApplication",
-      "@id": "https://reflectmyidea.comXLLocker/xllocker.html#software",
-      "name": "XLLocker Excel Security Solution",
-      "url": "https://reflectmyidea.comXLLocker/xllocker.html",
+      "@id": "https://reflectmyidea.com/DocuScanAI/index.html#software",
+      "name": "DocuScanAI",
+      "url": "https://reflectmyidea.com/DocuScanAI/index.html",
+      "applicationCategory": "SecurityApplication",
+      "applicationSubCategory": "AI OCR  and Document Capture Software",
+      "operatingSystem": "Windows",
+      "description": "Reads handwritten and printed entries from scanned forms and receipts and records them in your own system format, flagging uncertain values for review.",
+      "offers": {
+        "@type": "Offer",
+		"offerCount": 1,
+        "lowPrice": 299.99,
+        "highPrice": 699.99,
+        "priceCurrency": "USD",
+        "description": "Enterprise licensing tailored to user count and deployment scale. Includes custom integration assistance. Free customized risk-free proof-of-concept available upon request."
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://reflectmyidea.com/XLLocker/xllocker.html#software",
+      "name": "XLLocker",
+      "url": "https://reflectmyidea.com/XLLocker/xllocker.html",
       "applicationCategory": "SecurityApplication",
       "applicationSubCategory": "Excel Security and Data Protection Add-in",
       "operatingSystem": "Windows",
@@ -588,7 +615,8 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
         <a href="#approach">Approach</a>
         <a href="#products">Products</a>
         <a href="DocuGen/docugen.html">DocuGen</a>
-        <a href="XLLocker/xllocker.html">XLLocker</a>
+        <a href="DocuScanAI/index.html">DocuScanAI</a>
+		<a href="XLLocker/xllocker.html">XLLocker</a>
         <a href="#industries">Industries</a>
       </div>
     </div>
@@ -620,15 +648,20 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
 <section class="docugen" id="products">
   <div class="w">
     
-	<div class="up" style="margin-bottom:2.5rem">
+	<div class="up" style="margin-bottom:2.5rem" id="docugen">
       <div class="sec-label">Our Products</div>
       <h2 class="sec-h"><a href="DocuGen/docugen.html">DocuGen</a> : For paperwork that can't afford errors.</h2>
       <p class="sec-p" style="max-width:100%">DocuGen turns your existing Word templates and Excel data into compliant, locked reports — in seconds.</p>
       <p class="sec-p" style="max-width:100%">Generated with confidence.</p>
     </div>
-	
-	<div class="up" style="margin-bottom:2.5rem">
-      
+
+	<div class="up" style="margin-bottom:2.5rem"  id="docuscanai">      
+      <h2 class="sec-h"><a href="DocuScanAI/index.html">DocuScanAI</a> : AI OCR  and Document Capture Software</h2>
+      <p class="sec-p" style="max-width:100%">Reads handwritten and printed entries from scanned forms and receipts and records them in your own system format, flagging uncertain values for review.</p>
+      <p class="sec-p" style="max-width:100%">DocuScanAI automates data capture from scanned documents. It extracts individual fields from handwritten or printed records and maps the captured data directly to the appropriate fields in your existing system. Uncertain values are automatically flagged for review, allowing your team to focus only on entries that need verification.</p>
+    </div>
+
+	<div class="up" style="margin-bottom:2.5rem"  id="xllocker">
       <h2 class="sec-h"><a href="XLLocker/xllocker.html">XLLocker</a> : Domain-Locked Excel Security</h2>
       <p class="sec-p" style="max-width:100%">Excel is where most enterprises keep their most sensitive data — confidential records, business secrets, historical data and proprietary formulas that are genuine Intellectual Property. Password protection alone doesn't cut it: the moment a file is shared for collaboration, the password travels with it, and nothing stops it reaching someone unauthorised.</p>
       <p class="sec-p" style="max-width:100%">XLLocker removes password sharing entirely. It's an Excel COM add-in that installs directly into Excel, adds a dedicated ribbon tab, and controls exactly who can open a protected file — centrally, and in real time, using your existing Windows Active Directory.</p>
@@ -640,10 +673,12 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
 <!-- INDUSTRIES -->
 <section class="ind" id="industries">
   <div class="w">
+  
     <div class="up" style="text-align:center;max-width:640px;margin:0 auto 3rem">
       <div class="sec-label">Industries</div>
       <p class="sec-p" style="max-width:100%">Our products are valuable wherever strict regulatory, legal, or operational document requirements exist.</p>
     </div>
+	
     <div class="ind-grid">
       <div class="ind-card up d1"><div class="icon">🧬</div><h3>Life Sciences &amp; CROs</h3><p>CSRs, protocol amendments, informed consent forms, FDA/EMA compliance documentation.</p></div>
       <div class="ind-card up d2"><div class="icon">💹</div><h3>Financial &amp; Banking</h3><p>Loan agreements, KYC/AML reporting, RBI regulatory filings, risk assessment reports.</p></div>
@@ -739,8 +774,8 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
     <div class="foot-links">
       <a href="#approach">Approach</a>
 	  <a href="#docugen">DocuGen</a>
+	  <a href="#docuscanai">DocuScanAI</a>
 	  <a href="#xllocker">XLLocker</a>
-      <a href="#case-study">Case Study</a>
 	  <a href="#industries">Industries</a>
 	  <a href="#contact">Contact</a>
     </div>

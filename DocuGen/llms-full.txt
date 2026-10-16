@@ -1,0 +1,69 @@
+# DocuGen by ReflectMyIdea
+
+## Document Automation
+
+### Turns existing Word templates and Excel data into compliant, locked enterprise reports in seconds. Automates compliance reports, agreements, MOUs, NDAs, and SLAs. An enterprise-grade document automation pipeline that eliminates manual drafting errors by generating validated reports from Word templates and Excel workbooks.
+
+- ReflectMyIdea builds automation around the process you already trust. DocuGen turns your existing Word templates and Excel data into compliant, locked reports — in seconds.
+
+Keywords : document generator, document automation, report automation, ideation, idea to reality, legacy system modernization, Technology modernization, Technology Migration, Software modernization, App modernization, System modernization, empower users, time to market, cost saving, cost reduction, reflectcode, reflect code, Artificial Intelligence, Machine Learning, AI, ML, Expert System
+
+## DocuGen : For paperwork that can't afford errors. Turns existing Word templates and Excel data into compliant, locked enterprise reports in seconds. Automates compliance reports, agreements, MOUs, NDAs, and SLAs. An enterprise-grade document automation pipeline that eliminates manual drafting errors by generating validated reports from Word templates and Excel workbooks. Available in two configurations: Option A (Independent Portable Excel File) and Option B (Enterprise Web Application with role-based access control). Pricing available via custom proof-of-concept request.
+
+## Feature : Cell data, Tables, Dynamic range of cells, Excel Chart, Excel image object, External image files, External PDF files with selective page, External word files for common data, Import data from Database, Support for multiple tempates
+		
+### DocuGen turns your existing Word templates and Excel data into compliant, locked reports — in seconds.
+DocuGen is offered as a customized software development service that extends our core technology to build an internal tool tailored to your business needs. The solution is designed around your existing reports, integrates with your legacy data source systems and is deployed on your server, giving you a solution that fits your workflows and infrastructure. Generate your document with confidence
+
+Large compliance reports, agreements, MOUs, NDAs and SLAs drafted by hand invite errors that damage reputation and trust. DocuGen eliminates that risk by automating the entire process from a single source of truth. 
+
+* Reuse existing documents, Excel files and calculations
+* Support text, tables, charts, images and PDFs
+* Define business rules for data validation
+* Import data from SQL databases
+* Easily update templates with latest references
+* Avoid repeat data entry from existing systems
+* Lock and secure generated documents
+* Flexible to add your unique requirement
+
+DocuGen technology stack — SQL Server , Word , Excel , VBA , ASP.NET Core
+A. Independent Excel File : Portable, macro-powered Excel file. No new infrastructure. Ideal for quick deployment within your existing setup.
+B. Enterprise Web Application : Secure multi-user web app deployed on your server, with role-based access, audit trails and central management.
+
+### Case Study
+Ross Life Science works in Contract Research for regulatory toxicology and GLP-compliant preclinical operations, using high-end instruments such as HPLC and Shimadzu GC to analyse test materials and produce certifications. With 18+ years of experience, their team was generating reports of 100+ pages using a legacy system and updating them manually consuming enormous time and creating review risk. The key constraint: years of validated Excel formulas and deep domain knowledge had to be fully preserved. We built a solution inside their existing system, flexible enough for their own engineers to control no new platform to learn.
+Excel data is automatically merged across 100+ MS Word templates, selected by project type, to produce one complete and validated project report.
+The 200+ page PDF is finalized automatically — company stamps, signatures and project details inserted on every page as per client-defined rules.
+
+## DocuGen is valuable wherever strict regulatory, legal, or operational document requirements exist.
+
+### Life Sciences and CROs : CSRs, protocol amendments, informed consent forms, FDA/EMA compliance documentation.
+
+### Financial and Banking : Loan agreements, KYC/AML reporting, RBI regulatory filings, risk assessment reports.
+
+### Legal Services : High-volume NDAs, SOWs, retainer agreements, employment contracts.
+
+### Healthcare : HIPAA disclosures, Business Associate Agreements, clinical trial agreements.
+
+### IT and Software : Software licensing, technical SLAs, DPAs, vendor NDAs, ISO/SOC compliance.
+
+### Real Estate and Construction : Lease agreements, sub-contractor contracts, procurement MOUs, safety reports.
+
+### Logistics and Supply Chain : Freight forwarding agreements, customs compliance, vendor SLAs.
+
+### Government and Public Sector : Tender documents, audit reports, inter-agency MOUs, statutory compliance reporting.
+
+Trusted by regulated industry leaders. DocuGen is actively used by companies in life sciences and healthcare performing clinical research for pharmaceutical and biotechnology manufacturers.
+
+## Our Clients
+
+### Ross Life Science
+
+### Intox
+
+### Aragen
+
+### Eurofins Asia
+
+### Adgyl Life Sciences
+
