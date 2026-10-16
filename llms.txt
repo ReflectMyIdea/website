@@ -2,20 +2,20 @@
 
 ## TURN VISION INTO REALITY
 
-### ReflectMyIdea helps enterprises turn their vision to mordenize their legacy system into reality by using latest technology and building solution that seamlessly integrate with their legacy system with far less time and cost than a full replacement. Two of many successful example are DocuGen, DocuScanAI and XLLocker.
+### [ReflectMyIdea](https://www.reflectmyidea.com) helps enterprises turn their vision to mordenize their legacy system into reality by using latest technology and building solution that seamlessly integrate with their legacy system with far less time and cost than a full replacement. Two of many successful example are DocuGen, DocuScanAI and XLLocker.
 
 
 - Built around your problem, Reuse existing system, continue the legacy process and improve with less risk, less retraining, and less disruption
 
-## DocuGen : For paperwork that can't afford errors.
+## [DocuGen](https://www.reflectmyidea.com/DocuGen/docugen.html) : For paperwork that can't afford errors.
 
 ### DocuGen turns your existing Word templates and Excel data into compliant, locked reports — in seconds.
 
-## DocuScanAI : AI OCR  and Document Capture Software
+## [DocuScanAI](https://www.reflectmyidea.com/DocuScanAI/index.html) : AI OCR  and Document Capture Software
 
 ### Reads handwritten and printed entries from scanned forms and receipts and records them in your own system format, flagging uncertain values for review.
 
-## XLLocker : Domain-Locked Excel Security
+## [XLLocker](https://www.reflectmyidea.com/XLLocker/xllocker.html) : Domain-Locked Excel Security
 
 ### XLLocker removes password sharing entirely. It's an Excel COM add-in that installs directly into Excel, adds a dedicated ribbon tab, and controls exactly who can open a protected file — centrally, and in real time, using your existing Windows Active Directory
 
