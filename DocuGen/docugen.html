@@ -477,6 +477,134 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
 #lb img{max-width:92vw;max-height:88vh;border-radius:12px;box-shadow:0 24px 60px rgba(0,0,0,.6);object-fit:contain}
 #lb-x{position:fixed;top:18px;right:22px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.18);border:none;color:#fff;font-size:1.4rem;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10000}
 #lb-x:hover{background:rgba(255,255,255,.35)}
+
+
+/* DocuGen Brand System Styling */
+        :root {
+            --primary-navy: #0d1b2a;
+            --accent-teal: #008080;
+            --text-dark: #333333;
+            --bg-light-grey: #f4f6f8;
+            --border-color: #e1e4e8;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+            background-color: var(--white);
+        }
+
+/* FAQ Section Wrapper */
+        .faq-section-wrapper {
+            background-color: var(--bg-light-grey);
+            padding: 60px 20px;
+            border-radius: 12px;
+            max-width: 900px;
+            margin: 40px auto;
+            box-sizing: border-box;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-header {
+            text-align: center;
+            font-size: 2.25rem;
+            color: var(--primary-navy);
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        /* Accordion Item */
+        .faq-item {
+            background-color: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+            transition: border-color 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: var(--accent-teal);
+        }
+
+        /* Accordion Trigger Button */
+        .faq-trigger {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 20px 24px;
+            text-align: left;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--primary-navy);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            outline: none;
+            transition: color 0.3s ease;
+        }
+
+        .faq-trigger:hover {
+            /* color: var(--accent-teal); */
+			
+        }
+
+        /* Accordion Icon */
+        .faq-icon {
+            font-size: 1.25rem;
+            font-weight: 300;
+            color: var(--accent-teal);
+            transition: transform 0.3s ease;
+            user-select: none;
+        }
+
+        /* Active State Classes */
+        .faq-item.active {
+            border-color: var(--accent-teal);
+        }
+
+        .faq-item.active .faq-trigger {
+		   /* color: var(--accent-teal); */
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        /* Accordion Content Panel */
+        .faq-panel {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+            background-color: var(--white);
+        }
+
+        .faq-content {
+            padding: 0 24px 24px 24px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            font-size: 1rem;
+        }
+
+        .faq-content ul {
+            margin: 8px 0 0 0;
+            padding-left: 20px;
+        }
+
+        .faq-content li {
+            margin-bottom: 6px;
+        }
+
 </style>
 </head>
 
@@ -486,7 +614,6 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-PD67NKN7H1');
 </script>
 
@@ -542,16 +669,14 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
 <!-- HERO -->
 <section class="hero" id="hero">
   <div class="w">
-    <div class="up"><span class="hero-tag">Customised Automation ·<br class="tag-break"> Document Intelligence</span></div>
     <h1 class="up d1">Your documents.<br><span>Generated with confidence.</span></h1>
-    <p class="up d2">ReflectMyIdea builds automation around the process you already trust. DocuGen turns your existing Word templates and Excel data into compliant, locked reports — in seconds.</p>
+    <p class="up d2">DocuGen turns your existing templates and data into compliant, locked reports — in seconds.</p>
     <div class="hero-btns up d3">
       <a href="#docugen" class="btn-solid">See DocuGen</a>
       <a href="#case-study" class="btn-outline">Read Case Study</a>
     </div>
   </div>
 </section>
-
 
 <div class="divider"></div>
 
@@ -581,7 +706,7 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
           <div class="feat-item"><span class="feat-dot">✓</span>Define business rules for data validation</div>
           <div class="feat-item"><span class="feat-dot">✓</span>Import data from SQL databases</div>
           <div class="feat-item"><span class="feat-dot">✓</span>Easily update templates with latest references</div>
-          <div class="feat-item"><span class="feat-dot">✓</span>Avoid repeat data entry from existing systems</div>
+          <div class="feat-item"><span class="feat-dot">✓</span>Avoid repeat data entry</div>
           <div class="feat-item"><span class="feat-dot">✓</span>Lock and secure generated documents</div>
           <div class="feat-item"><span class="feat-dot">✓</span>Flexible to add your unique requirement</div>
         </div>
@@ -595,75 +720,18 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
       </div>
     </div>
     <div class="deliv-row up">
-      <div class="deliv-card"><div class="opt">Option A</div><h4>Independent Excel File</h4><p>Portable, macro-powered Excel file. No new infrastructure. Ideal for quick deployment within your existing setup.</p></div>
-      <div class="deliv-card"><div class="opt">Option B</div><h4>Enterprise Web Application</h4><p>Secure multi-user web app deployed on your server, with role-based access, audit trails and central management.</p></div>
+      <div class="deliv-card">
+		<div class="opt">Option A</div>
+		<h4>Enterprise Web Application</h4>
+		<p>Secure multi-user web app deployed on your server, with role-based access, audit trails and central management.</p>
+	  </div>
+      
+	  <div class="deliv-card">
+		<div class="opt">Option B</div>
+		<h4>Independent Excel File</h4>
+		<p>Portable, macro-powered Excel file. No new infrastructure. Ideal for quick deployment within your existing setup.</p>
+	  </div>
     </div>
-  </div>
-</section>
-
-<!-- CASE STUDY -->
-<section class="case" id="case-study">
-  <div class="w">
-    <div class="up">
-      <div class="sec-label">Case Study</div>
-      <h2 class="sec-h">Ross Life Science</h2>
-    </div>
-    <div class="case-intro-box up d1">
-      <p>Ross Life Science works in Contract Research for regulatory toxicology and GLP-compliant preclinical operations, using high-end instruments such as HPLC and Shimadzu GC to analyse test materials and produce certifications. With <strong>18+ years</strong> of experience, their team was generating reports of <strong>100+ pages</strong> using a legacy system and updating them manually — consuming enormous time and creating review risk.</p>
-      <p>The key constraint: years of validated Excel formulas and deep domain knowledge had to be fully preserved. We built a solution inside their existing system, flexible enough for their own engineers to control — no new platform to learn.</p>
-    </div>
-    <div class="stats up d2">
-      <div class="stat"><span class="stat-n">18+</span><span class="stat-l">Years in regulatory toxicology</span></div>
-      <div class="stat"><span class="stat-n">100+</span><span class="stat-l">Word templates per report</span></div>
-      <div class="stat"><span class="stat-n">200+</span><span class="stat-l">Pages auto-stamped per report</span></div>
-      <div class="stat"><span class="stat-n">3</span><span class="stat-l">Custom tools, one pipeline</span></div>
-    </div>
-    <div class="up" style="margin-bottom:2.5rem">
-      <h3 style="font-size:1.5rem;font-weight:700;color:var(--navy);margin-bottom:1.2rem;text-align:center">Three tools. One seamless pipeline.</h3>
-      <div class="pipe-grid" style="margin-bottom:2.25rem">
-        <div style="background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:1.5rem 1.4rem">
-          <div style="width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center;margin-bottom:.8rem">1</div>
-          <h4 style="font-size:1.3rem;font-weight:700;color:var(--navy);margin-bottom:.45rem">Data Conditioning</h4>
-          <p style="font-size:1.05rem;color:var(--ink2);line-height:1.65">ASCII data exported from HPLC / Shimadzu GC instruments is filtered, conditioned and automatically converted into a human-readable PDF analysis report.</p>
-        </div>
-        <div style="background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:1.5rem 1.4rem">
-          <div style="width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center;margin-bottom:.8rem">2</div>
-          <h4 style="font-size:1.3rem;font-weight:700;color:var(--navy);margin-bottom:.45rem">Report Generator</h4>
-          <p style="font-size:1.05rem;color:var(--ink2);line-height:1.65">Excel data is automatically merged across 100+ MS Word templates, selected by project type, to produce one complete and validated project report.</p>
-        </div>
-        <div style="background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:1.5rem 1.4rem">
-          <div style="width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center;margin-bottom:.8rem">3</div>
-          <h4 style="font-size:1.3rem;font-weight:700;color:var(--navy);margin-bottom:.45rem">PDF Post-Processing</h4>
-          <p style="font-size:1.05rem;color:var(--ink2);line-height:1.65">The 200+ page PDF is finalized automatically — company stamps, signatures and project details inserted on every page as per client-defined rules.</p>
-        </div>
-      </div>
-      <h3 style="font-size:1.5rem;font-weight:700;color:var(--navy);margin-top:3.5rem;text-align:center">DocuGen in Action — Live Software Screenshots</h3>
-      <div class="shots-vertical-container">
-        <div class="shot-display-card">
-          <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
-            <img src="img03.png" alt="DocuGen Raw Data File Generator" style="width:100%;display:block">
-          </div>
-          <p style="text-align:center;font-size:.98rem;color:var(--ink2);margin-top:.6rem">Step 1 · Raw Data File Generator — select project code &amp; generate data file</p>
-        </div>
-        <div class="shot-display-card">
-          <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
-            <img src="img04.png" alt="DocuGen Study Report Generator" style="width:100%;display:block">
-          </div>
-          <p style="text-align:center;font-size:.98rem;color:var(--ink2);margin-top:.6rem;margin-bottom:1.5rem">Step 2 · Study Report Generator — upload Excel file &amp; generate report with live progress</p>
-        </div>
-      </div>
-    </div>
-    <div class="collab-wrap up">
-      <table>
-        <thead><tr><th>Step</th><th>Ross Life Science</th><th>ReflectMyIdea</th></tr></thead>
-        <tbody>
-          <tr><td>Data Conditioning</td><td>Export raw ASCII data from instruments</td><td>Import, condition and generate PDF report</td></tr>
-          <tr><td>Report Generator</td><td>Define data, validation rules, templates and tags</td><td>Validate data; combine selected templates into one complete report</td></tr>
-          <tr><td>PDF Post-Processing</td><td>Define rules for stamp, text and data placement</td><td>Apply rules automatically across every page of the 100+ page PDF</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="case-close up">By integrating these tools, Ross Life's engineers automated critical workflow steps, eliminated manual errors and saved substantial time — while retaining full control of their domain knowledge.</p>
   </div>
 </section>
 
@@ -705,6 +773,87 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
     </div>
   </div>
 </section>
+
+<!-- CASE STUDY -->
+<section class="case" id="case-study">
+  <div class="w">
+  	<div class="faq-item">
+	<button class="faq-trigger" aria-expanded="false">
+		<div class="up">
+		  <div class="sec-label">Case Study</div>
+		</div>
+		<span class="faq-icon" aria-hidden="true">+</span>
+	</button>
+	<div class="faq-panel">
+	<div class="faq-content">
+	<h2 class="sec-h">Ross Life Science</h2>
+    <div class="case-intro-box up d1">
+      <p>Ross Life Science works in Contract Research for regulatory toxicology and GLP-compliant preclinical operations, using high-end instruments such as HPLC and Shimadzu GC to analyse test materials and produce certifications. With <strong>18+ years</strong> of experience, their team was generating reports of <strong>200+ pages</strong> using a legacy system and updating them manually — consuming enormous time and creating review risk.</p>
+      <p>The key constraint: years of validated Excel formulas and deep domain knowledge had to be fully preserved. We built a solution inside their existing system, flexible enough for their own engineers to control — no new platform to learn.</p>
+    </div>
+    <div class="stats up d2">
+      <div class="stat"><span class="stat-n">18+</span><span class="stat-l">Years in regulatory toxicology</span></div>
+      <div class="stat"><span class="stat-n">100+</span><span class="stat-l">Word templates per report</span></div>
+      <div class="stat"><span class="stat-n">200+</span><span class="stat-l">Pages auto-stamped per report</span></div>
+      <div class="stat"><span class="stat-n">3</span><span class="stat-l">Custom tools, one pipeline</span></div>
+    </div>
+    <div class="up" style="margin-bottom:2.5rem">
+      <h3 style="font-size:1.5rem;font-weight:700;color:var(--navy);margin-bottom:1.2rem;text-align:center">Three tools. One seamless pipeline.</h3>
+      <div class="pipe-grid" style="margin-bottom:2.25rem">
+        <div style="background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:1.5rem 1.4rem">
+          <div style="width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center;margin-bottom:.8rem">1</div>
+          <h4 style="font-size:1.3rem;font-weight:700;color:var(--navy);margin-bottom:.45rem">Data Conditioning</h4>
+          <p style="font-size:1.05rem;color:var(--ink2);line-height:1.65">ASCII data exported from HPLC / Shimadzu GC instruments is filtered, conditioned and automatically converted into a human-readable PDF analysis report.</p>
+        </div>
+        <div style="background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:1.5rem 1.4rem">
+          <div style="width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center;margin-bottom:.8rem">2</div>
+          <h4 style="font-size:1.3rem;font-weight:700;color:var(--navy);margin-bottom:.45rem">Report Generator</h4>
+          <p style="font-size:1.05rem;color:var(--ink2);line-height:1.65">Excel data is automatically merged across 100+ MS Word templates, selected by project type, to produce one complete and validated project report.</p>
+        </div>
+        <div style="background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:1.5rem 1.4rem">
+          <div style="width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center;margin-bottom:.8rem">3</div>
+          <h4 style="font-size:1.3rem;font-weight:700;color:var(--navy);margin-bottom:.45rem">PDF Post-Processing</h4>
+          <p style="font-size:1.05rem;color:var(--ink2);line-height:1.65">The 200+ page PDF is finalized automatically — company stamps, signatures and project details inserted on every page as per client-defined rules.</p>
+        </div>
+      </div>
+      <h3 style="font-size:1.5rem;font-weight:700;color:var(--navy);margin-top:3.5rem;text-align:center">DocuGen in Action — Live Software Screenshots</h3>
+      <div class="shots-vertical-container">
+        <div class="shot-display-card">
+          <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
+            <img src="img03.png" alt="DocuGen Raw Data File Generator" style="width:100%;display:block">
+          </div>
+          <p style="text-align:center;font-size:.98rem;color:var(--ink2);margin-top:.6rem">Step 1 · Raw Data File Generator — select project code &amp; generate data file</p>
+        </div>
+		
+        <div class="shot-display-card">
+          <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
+            <img src="img04.png" alt="DocuGen Study Report Generator" style="width:100%;display:block">
+          </div>
+          <p style="text-align:center;font-size:.98rem;color:var(--ink2);margin-top:.6rem;margin-bottom:1.5rem">Step 2 · Study Report Generator — upload Excel file &amp; generate report with live progress</p>
+        </div>
+		
+      </div>
+    </div>
+	
+    <div class="collab-wrap up">
+      <table>
+        <thead><tr><th>Step</th><th>Ross Life Science</th><th>DocuGen</th></tr></thead>
+        <tbody>
+          <tr><td>Data Conditioning</td><td>Export raw ASCII data from instruments</td><td>Import, condition and generate PDF report</td></tr>
+          <tr><td>Report Generator</td><td>Define data, validation rules, templates and tags</td><td>Validate data; combine selected templates into one complete report</td></tr>
+          <tr><td>PDF Post-Processing</td><td>Define rules for stamp, text and data placement</td><td>Apply rules automatically across every page of the 100+ page PDF</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="case-close up">By integrating these tools, Ross Life's engineers automated critical workflow steps, eliminated manual errors and saved substantial time, while retaining full control of their domain knowledge.</p>
+	</div>
+	</div>
+	</div>
+	
+  </div>
+</section>
+
+
 
 <!-- CONTACT -->
 <section class="contact" id="contact">
@@ -762,30 +911,188 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
   </div>
 </section>
 
+<!-- Target FAQ Accordion Component -->
+<section class="faq-section-wrapper">
+	<div class="faq-container">
+		<h2 class="faq-header">Frequently Asked Questions</h2>
+
+		<!-- Item 1: What -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>What is DocuGen?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					A customized software service that converts Word templates and data from various source (Excel, Database) into locked, compliant reports instantly on your own server.
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Item 2: Data change -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Do we need to replace our current business logic?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					No, it preserves your validated formulas / calculations and domain knowledge. Your existing data and logic is used as it is. 
+				</div>
+			</div>
+		</div>
+		
+		<!-- Item 3: Deployment -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>How DocuGen will support our internal security guidelines?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					We offer two flexible structural approaches depending on your security demands:
+					<ul>
+						<li><strong>* Option A (Enterprise Web Application):</strong> A secure, multi-user web application deployed locally on your server featuring centralized infrastructure, role permissions, and full lifecycle logs.</li>
+						<li><strong>* Option B (Independent Excel File):</strong> A portable, macro-powered setup requiring zero infrastructure adjustments, ideal for quick deployment within localized silos.</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Item 4: Data types -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>What formats are supported?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					DocuGen currently supports Text, Tables, Charts, Images, PDF file and SQL database integration. It is highly customizable and can be updated to support your custom format. 
+				</div>
+			</div>
+		</div>
+
+		<!-- Item 5: Security -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>How does DocuGen guarantee data security and privacy?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Your confidential data never leaves your environment. DocuGen is deployed directly on your secure server, entirely eliminating third-party hosting risks.
+				</div>
+			</div>
+		</div>
+
+		<!-- Item 6: Regulatory Compliance -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Is DocuGen compliant with strict regulatory standards (FDA, GLP, HIPAA)?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					DocuGen is engineered for compliance. However, compliance is a joint responsibility achieved by how the system is engineered and how your infrastructure is managed. We will identify specific technical, administrative, and procedural safeguards required for your compliance needs. e.g. Clinical Study Reports (CSRs), BAA, IQ, OQ, PQ.
+				</div>
+			</div>
+		</div>
+
+		<!-- Item 7: Data Integrity / Auditing -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>How does the system ensure report compliance and prevent manual errors?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					DocuGen establishes a single source of truth by securing generated documents. Under the Enterprise Web App architecture, system enforces total document integrity through central role-based access controls, comprehensive data validation rules and automated audit trails tracking user activity.
+				</div>
+			</div>
+		</div>
+
+		<!-- Item 8: Processing Automation -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Can DocuGen automatically add corporate seals, timestamps, and signatures?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Yes using our specialized Post-Processing tool. Actions are defined for custom text, stamp, and signature placement. For instance, corporate stamp, signature are automatically applied sequentially across 200+ page output documents instantly.
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!-- Smooth Vanilla JavaScript Logic -->
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const faqItems = document.querySelectorAll('.faq-item');
+
+		faqItems.forEach(item => {
+			const trigger = item.querySelector('.faq-trigger');
+			const panel = item.querySelector('.faq-panel');
+
+			trigger.addEventListener('click', () => {
+				const isOpen = item.classList.contains('active');
+
+				// Close any other open panels for a clean single-accordion feel
+				faqItems.forEach(otherItem => {
+					if (otherItem !== item && otherItem.classList.contains('active')) {
+						otherItem.classList.remove('active');
+						otherItem.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+						otherItem.querySelector('.faq-panel').style.maxHeight = null;
+					}
+				});
+
+				// Toggle current item
+				if (isOpen) {
+					item.classList.remove('active');
+					trigger.setAttribute('aria-expanded', 'false');
+					panel.style.maxHeight = null;
+				} else {
+					item.classList.add('active');
+					trigger.setAttribute('aria-expanded', 'true');
+					// Calculate scrollHeight dynamically for optimal CSS animations
+					panel.style.maxHeight = panel.scrollHeight + "px";
+				}
+			});
+		});
+	});
+</script>
+
+
+
+
 <!-- FOOTER -->
 <footer>
   <div class="w foot-inner">
     <div class="foot-brand">
-  <svg class="logo-svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="8" fill="#1245b8"/>
-  <path d="M16 9c-3.3 0-6 2.7-6 6 0 2.2 1.2 4.1 3 5.1V22a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1.9c1.8-1 3-2.9 3-5.1 0-3.3-2.7-6-6-6z" stroke="white" stroke-width="1.6"/>
-  <path d="M13.3 12.8 C13.9 11.8 14.7 11.3 15.5 11.4" stroke="white" stroke-width="1" stroke-linecap="round" fill="none"/>
-  <circle cx="16" cy="14" r="0.7" fill="#FBBF24"/>
-  <circle cx="14.2" cy="16.5" r="0.6" fill="#FBBF24"/>
-  <circle cx="17.8" cy="16.5" r="0.6" fill="#FBBF24"/>
-  <line x1="16" y1="14" x2="14.2" y2="16.5" stroke="#FBBF24" stroke-width="1.1"/>
-  <line x1="16" y1="14" x2="17.8" y2="16.5" stroke="#FBBF24" stroke-width="1.1"/>
-  <line x1="13.5" y1="25" x2="18.5" y2="25" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
-  <line x1="14" y1="27" x2="18" y2="27" stroke="#22c55e" stroke-width="1.6" stroke-linecap="round"/>
-  <line x1="16" y1="4" x2="16" y2="6.5" stroke="#FBBF24" stroke-width="1.4" stroke-linecap="round"/>
-  <line x1="10.5" y1="6" x2="12" y2="7.8" stroke="#FBBF24" stroke-width="1.4" stroke-linecap="round"/>
-  <line x1="21.5" y1="6" x2="20" y2="7.8" stroke="#FBBF24" stroke-width="1.4" stroke-linecap="round"/>
-</svg>
-  <span style="display:flex;flex-direction:column;align-items:center;line-height:1.1;gap:3px">
-  <span style="font-weight:700;color:var(--navy);font-size:1.48rem">ReflectMyIdea</span>
-  <span style="font-weight:500;color:var(--navy);font-size:.72rem;letter-spacing:.15em;-webkit-text-stroke:0.3px var(--navy)">TURN VISION INTO REALITY</span>
-</span>
-</div>
+	  <svg class="logo-svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+	  <rect width="32" height="32" rx="8" fill="#1245b8"/>
+	  <path d="M16 9c-3.3 0-6 2.7-6 6 0 2.2 1.2 4.1 3 5.1V22a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1.9c1.8-1 3-2.9 3-5.1 0-3.3-2.7-6-6-6z" stroke="white" stroke-width="1.6"/>
+	  <path d="M13.3 12.8 C13.9 11.8 14.7 11.3 15.5 11.4" stroke="white" stroke-width="1" stroke-linecap="round" fill="none"/>
+	  <circle cx="16" cy="14" r="0.7" fill="#FBBF24"/>
+	  <circle cx="14.2" cy="16.5" r="0.6" fill="#FBBF24"/>
+	  <circle cx="17.8" cy="16.5" r="0.6" fill="#FBBF24"/>
+	  <line x1="16" y1="14" x2="14.2" y2="16.5" stroke="#FBBF24" stroke-width="1.1"/>
+	  <line x1="16" y1="14" x2="17.8" y2="16.5" stroke="#FBBF24" stroke-width="1.1"/>
+	  <line x1="13.5" y1="25" x2="18.5" y2="25" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+	  <line x1="14" y1="27" x2="18" y2="27" stroke="#22c55e" stroke-width="1.6" stroke-linecap="round"/>
+	  <line x1="16" y1="4" x2="16" y2="6.5" stroke="#FBBF24" stroke-width="1.4" stroke-linecap="round"/>
+	  <line x1="10.5" y1="6" x2="12" y2="7.8" stroke="#FBBF24" stroke-width="1.4" stroke-linecap="round"/>
+	  <line x1="21.5" y1="6" x2="20" y2="7.8" stroke="#FBBF24" stroke-width="1.4" stroke-linecap="round"/>
+	</svg>
+	  <span style="display:flex;flex-direction:column;align-items:center;line-height:1.1;gap:3px">
+	  <span style="font-weight:700;color:var(--navy);font-size:1.48rem">ReflectMyIdea</span>
+	  <span style="font-weight:500;color:var(--navy);font-size:.72rem;letter-spacing:.15em;-webkit-text-stroke:0.3px var(--navy)">TURN VISION INTO REALITY</span>
+	</span>
+	</div>
     <div class="foot-links">
 	  <a href="#docugen">DocuGen</a>
 	  <a href="#case-study">Case Study</a>

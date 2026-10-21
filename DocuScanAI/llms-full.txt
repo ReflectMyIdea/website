@@ -47,3 +47,32 @@ We validate the setup on your own sample documents during a risk-free proof of c
 * Real Estate and Construction : Housing society receipts, material receipt notes, site checklists.
 * Logistics and Supply Chain : Delivery slips, gate-entry registers, weighbridge slips.
 * Government and Public Sector : Application forms, citizen-service forms, statutory registers.
+
+# FAQs
+
+## What is DocuScanAI?
+### Reads handwritten and printed entries from scanned documents and use AI to improve accuracy before recording them in your system.
+
+## What type of documents does it work with?
+### Any structured form or receipt with fixed fields, once each field is defined on a template along with its type. It is used to improve the accuracy. 
+
+## How accurate is it?
+### Its highly accurate, however it depends on handwriting quality and the OCR engine. Uncertain values are automatically flagged for review and in-place correction. We measure accuracy on your own samples during the POC and connect to suitable OCR engine to improve accuracy.
+
+## Does a person still check the results?
+### Yes. Low-confidence fields are highlighted and values can be corrected before export.
+
+## Is our data sent to the cloud?
+## An offline mode keeps documents on your premises. Azure AI Document Intelligence use cloud. DocuScanAI can use both.
+
+## Does it handle tilted or shifted scans?
+### Yes, it automatically aligns the scans before processing.
+
+## Does it check the data?
+### Yes, dates, amounts and IDs are validated by field type.
+
+## Which languages and scan formats are supported?
+### Any language supported by OCR engine. We can also connect to OCR engine tuned for your language. 
+
+# Get in Touch
+## Email your requirement to samit@reflectcode.com

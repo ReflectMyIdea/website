@@ -457,6 +457,135 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
 #lb img{max-width:92vw;max-height:88vh;border-radius:12px;box-shadow:0 24px 60px rgba(0,0,0,.6);object-fit:contain}
 #lb-x{position:fixed;top:18px;right:22px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.18);border:none;color:#fff;font-size:1.4rem;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10000}
 #lb-x:hover{background:rgba(255,255,255,.35)}
+
+
+
+/* DocuGen Brand System Styling */
+        :root {
+            --primary-navy: #0d1b2a;
+            --accent-teal: #008080;
+            --text-dark: #333333;
+            --bg-light-grey: #f4f6f8;
+            --border-color: #e1e4e8;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+            background-color: var(--white);
+        }
+
+/* FAQ Section Wrapper */
+        .faq-section-wrapper {
+            background-color: var(--bg-light-grey);
+            padding: 60px 20px;
+            border-radius: 12px;
+            max-width: 900px;
+            margin: 40px auto;
+            box-sizing: border-box;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-header {
+            text-align: center;
+            font-size: 2.25rem;
+            color: var(--primary-navy);
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        /* Accordion Item */
+        .faq-item {
+            background-color: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+            transition: border-color 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: var(--accent-teal);
+        }
+
+        /* Accordion Trigger Button */
+        .faq-trigger {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 20px 24px;
+            text-align: left;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--primary-navy);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            outline: none;
+            transition: color 0.3s ease;
+        }
+
+        .faq-trigger:hover {
+            /* color: var(--accent-teal); */
+			
+        }
+
+        /* Accordion Icon */
+        .faq-icon {
+            font-size: 1.25rem;
+            font-weight: 300;
+            color: var(--accent-teal);
+            transition: transform 0.3s ease;
+            user-select: none;
+        }
+
+        /* Active State Classes */
+        .faq-item.active {
+            border-color: var(--accent-teal);
+        }
+
+        .faq-item.active .faq-trigger {
+		   /* color: var(--accent-teal); */
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        /* Accordion Content Panel */
+        .faq-panel {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+            background-color: var(--white);
+        }
+
+        .faq-content {
+            padding: 0 24px 24px 24px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            font-size: 1rem;
+        }
+
+        .faq-content ul {
+            margin: 8px 0 0 0;
+            padding-left: 20px;
+        }
+
+        .faq-content li {
+            margin-bottom: 6px;
+        }
+
 </style>
 </head>
 
@@ -524,7 +653,7 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
       <div class="sec-label"></div>
       <h2 class="sec-h">XLLocker : Domain-Locked Excel Security</h2>
       <p class="sec-p" style="max-width:100%">Excel is where most enterprises keep their most sensitive data (confidential records, business secrets, finance modeling, historical data and proprietary formulas) that are genuine Intellectual Property. Password protection alone doesn't cut it: the moment a file is shared for collaboration, the password travels with it, and nothing stops it reaching someone unauthorised.</p>
-      <br><p class="sec-p" style="max-width:100%">XLLocker removes password sharing entirely and provides centralized access control. <br><br>It's an Excel COM add-in that installs directly into Excel, adds a dedicated ribbon tab, and controls exactly who can open a protected file using your existing Windows Active Directory.</p>
+      <br><p class="sec-p" style="max-width:100%">XLLocker removes password sharing entirely and provides centralized access control. <br><br>It's an Excel COM add-in that installs directly into Excel, adds a dedicated ribbon tab, and controls exactly who can open a locked file using your existing Windows Active Directory.</p>
     </div>
     <div class="up" style="text-align:center;margin-bottom:1rem"  id="casestudy">
       <div class="feat-grid" style="display:inline-grid;margin:0;max-width:900px;text-align:left">
@@ -616,7 +745,7 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
       <h2 class="sec-h">Let's protect your confidential data.</h2>
       <p class="sec-p">Tell us about your data protection concerns and sharing needs. We'll provide you solution tailored to your exact needs.</p>
       <div class="promise">
-        <div class="promise-item"><span class="ck">✓</span>No need to abandon your existing system</div>
+        <div class="promise-item"><span class="ck">✓</span>No need to abandon your existing process</div>
         <div class="promise-item"><span class="ck">✓</span>Start with a working POC, not a commitment</div>
         <div class="promise-item"><span class="ck">✓</span>Your validated formulas and domain knowledge stay intact</div>
         <div class="promise-item"><span class="ck">✓</span>Step-by-step implementation, minimal disruption</div>
@@ -664,6 +793,160 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
   </div>
 </section>
 
+<!-- Target FAQ Accordion Component -->
+<section class="faq-section-wrapper">
+	<div class="faq-container">
+		<h2 class="faq-header">Frequently Asked Questions</h2>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>What is XLLocker?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					An Excel add-in that dynamically controls who can open the locked file, without sharing passwords.
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Why isn’t a password enough?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					The password travels with the file when it’s shared, so nothing stops it reaching an unauthorised person. 
+				</div>
+			</div>
+		</div>
+		
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>How is access controlled?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					By system (Hardware Lock), Network Domain, Active Directory group, MFA (TOTP via Microsoft Authenticator), or a custom authorisation process.
+				</div>
+			</div>
+		</div>
+		
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>What happens when an employee leaves?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					The admin removes them from the AD group and access is revoked. 
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>What about a file that’s already open?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					The add-in periorically re-checks authorisation, so it re-locks shortly after access is removed.
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Is there an audit trail?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Yes, a real-time activity log covers file open/close, authorisation status and unauthorised access attempts.
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>How is it installed?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					As an Excel add-in with its own ribbon tab.
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Can recipients open a locked file without the add-in?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					No, locked file is secured and cannot be open without add-in installed.
+				</div>
+			</div>
+		</div>
+		
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Can locked files be used offline?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Yes, locked files can be used offline.
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+<!-- Smooth Vanilla JavaScript Logic -->
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const faqItems = document.querySelectorAll('.faq-item');
+
+		faqItems.forEach(item => {
+			const trigger = item.querySelector('.faq-trigger');
+			const panel = item.querySelector('.faq-panel');
+
+			trigger.addEventListener('click', () => {
+				const isOpen = item.classList.contains('active');
+
+				// Close any other open panels for a clean single-accordion feel
+				faqItems.forEach(otherItem => {
+					if (otherItem !== item && otherItem.classList.contains('active')) {
+						otherItem.classList.remove('active');
+						otherItem.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+						otherItem.querySelector('.faq-panel').style.maxHeight = null;
+					}
+				});
+
+				// Toggle current item
+				if (isOpen) {
+					item.classList.remove('active');
+					trigger.setAttribute('aria-expanded', 'false');
+					panel.style.maxHeight = null;
+				} else {
+					item.classList.add('active');
+					trigger.setAttribute('aria-expanded', 'true');
+					// Calculate scrollHeight dynamically for optimal CSS animations
+					panel.style.maxHeight = panel.scrollHeight + "px";
+				}
+			});
+		});
+	});
+</script>
+
+	
 <!-- FOOTER -->
 <footer>
   <div class="w foot-inner">

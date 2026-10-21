@@ -36,3 +36,30 @@
 ### Logistics , Supply Chain : Freight forwarding agreements, customs compliance, vendor SLAs.
 
 ### Government , Public Sector : Tender documents, audit reports, inter-agency MOUs, statutory compliance reporting.
+
+# FAQs
+
+## What does ReflectMyIdea do
+### We build automation around the process you already use. Our products are DocuGen, DocuScanAI and XLLocker
+
+## Do we need to replace our existing system?
+### No. We reuse what works for you and improve it step by step.
+
+## What is a proof of concept, and are we committed after it?
+### It’s a working demo built for your process. You validate it before committing to anything.
+
+## Will our team need retraining?
+### We aim for minimal retraining. We keep your existing process and add small features that reduce daily effort.
+
+## Can the solution be customised?
+### Yes, each solution extends our core technology and is shaped around your requirements.
+
+## Which industries do you serve?
+### Life sciences, Finance, Legal, Healthcare, IT, Real estate, Logistics and Government.
+
+## Is our data kept confidential during a POC?
+### Yes, we sign NDA before starting on your project to gaurantee your data confidentiality.
+
+# Get in Touch
+## Email your requirement to samit@reflectcode.com
+

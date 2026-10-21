@@ -67,3 +67,34 @@ Trusted by regulated industry leaders. DocuGen is actively used by companies in 
 
 ### Adgyl Life Sciences
 
+
+# FAQs
+
+## What is DocuGen?
+### A customized software service that converts Word templates and data from various source (Excel, Database) into locked, compliant reports instantly on your own server.
+
+## Do we need to replace our current business logic?
+### No, it preserves your validated formulas / calculations and domain knowledge. Your existing data and logic is used as it is.
+
+## How DocuGen will support our internal security guidelines?
+### We offer two flexible structural approaches depending on your security demands:
+* Option A (Enterprise Web Application): A secure, multi-user web application deployed locally on your server featuring centralized infrastructure, role permissions, and full lifecycle logs.
+* Option B (Independent Excel File): A portable, macro-powered setup requiring zero infrastructure adjustments, ideal for quick deployment within localized silos.
+
+## What formats are supported?
+### DocuGen currently supports Text, Tables, Charts, Images, PDF file and SQL database integration. It is highly customizable and can be updated to support your custom format.
+
+## How does DocuGen guarantee data security and privacy?
+### Your confidential data never leaves your environment. DocuGen is deployed directly on your secure server, entirely eliminating third-party hosting risks.
+
+## Is DocuGen compliant with strict regulatory standards (FDA, GLP, HIPAA)?
+### DocuGen is engineered for compliance. However, compliance is a joint responsibility achieved by how the system is engineered and how your infrastructure is managed. We will identify specific technical, administrative, and procedural safeguards required for your compliance needs. e.g. Clinical Study Reports (CSRs), BAA, IQ, OQ, PQ.
+
+## How does the system ensure report compliance and prevent manual errors?
+### DocuGen establishes a single source of truth by securing generated documents. Under the Enterprise Web App architecture, system enforces total document integrity through central role-based access controls, comprehensive data validation rules and automated audit trails tracking user activity.
+
+## Can DocuGen automatically add corporate seals, timestamps, and signatures?
+### Yes using our specialized PDF Post-Processing tools. Actions are defined for custom text, stamp, and signature placement. For instance, corporate stamp, signature are automatically applied sequentially across 200+ page output documents instantly.
+
+# Get in Touch
+## Email your requirement to samit@reflectcode.com

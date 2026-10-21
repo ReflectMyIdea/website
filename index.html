@@ -562,6 +562,134 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
 #lb img{max-width:92vw;max-height:88vh;border-radius:12px;box-shadow:0 24px 60px rgba(0,0,0,.6);object-fit:contain}
 #lb-x{position:fixed;top:18px;right:22px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.18);border:none;color:#fff;font-size:1.4rem;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10000}
 #lb-x:hover{background:rgba(255,255,255,.35)}
+
+
+/* DocuGen Brand System Styling */
+        :root {
+            --primary-navy: #0d1b2a;
+            --accent-teal: #008080;
+            --text-dark: #333333;
+            --bg-light-grey: #f4f6f8;
+            --border-color: #e1e4e8;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+            background-color: var(--white);
+        }
+
+/* FAQ Section Wrapper */
+        .faq-section-wrapper {
+            background-color: var(--bg-light-grey);
+            padding: 60px 20px;
+            border-radius: 12px;
+            max-width: 900px;
+            margin: 40px auto;
+            box-sizing: border-box;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-header {
+            text-align: center;
+            font-size: 2.25rem;
+            color: var(--primary-navy);
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        /* Accordion Item */
+        .faq-item {
+            background-color: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+            transition: border-color 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: var(--accent-teal);
+        }
+
+        /* Accordion Trigger Button */
+        .faq-trigger {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 20px 24px;
+            text-align: left;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--primary-navy);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            outline: none;
+            transition: color 0.3s ease;
+        }
+
+        .faq-trigger:hover {
+            /* color: var(--accent-teal); */
+			
+        }
+
+        /* Accordion Icon */
+        .faq-icon {
+            font-size: 1.25rem;
+            font-weight: 300;
+            color: var(--accent-teal);
+            transition: transform 0.3s ease;
+            user-select: none;
+        }
+
+        /* Active State Classes */
+        .faq-item.active {
+            border-color: var(--accent-teal);
+        }
+
+        .faq-item.active .faq-trigger {
+		   /* color: var(--accent-teal); */
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        /* Accordion Content Panel */
+        .faq-panel {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+            background-color: var(--white);
+        }
+
+        .faq-content {
+            padding: 0 24px 24px 24px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            font-size: 1rem;
+        }
+
+        .faq-content ul {
+            margin: 8px 0 0 0;
+            padding-left: 20px;
+        }
+
+        .faq-content li {
+            margin-bottom: 6px;
+        }
+
 </style>
 </head>
 
@@ -747,6 +875,137 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
   </div>
 </section>
 
+
+<!-- Target FAQ Accordion Component -->
+<section class="faq-section-wrapper">
+	<div class="faq-container">
+		<h2 class="faq-header">Frequently Asked Questions</h2>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>What does ReflectMyIdea do?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					We build automation around the process you already use. Our products are DocuGen, DocuScanAI and XLLocker.
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Do we need to replace our existing system?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					No. We reuse what works for you and improve it step by step. 
+				</div>
+			</div>
+		</div>
+		
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>What is a proof of concept, and are we committed after it?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					It’s a working demo built for your process. You validate it before committing to anything.
+				</div>
+			</div>
+		</div>
+		
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Will our team need retraining?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					We aim for minimal retraining. We keep your existing process and add small features that reduce daily effort. 
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Can the solution be customised?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Yes, each solution extends our core technology and is shaped around your requirements.
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Which industries do you serve?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Life sciences, Finance, Legal, Healthcare, IT, Real estate, Logistics and Government.
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Is our data kept confidential during a POC?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Yes, we sign NDA before starting on your project to gaurantee your data confidentiality.
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+<!-- Smooth Vanilla JavaScript Logic -->
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const faqItems = document.querySelectorAll('.faq-item');
+
+		faqItems.forEach(item => {
+			const trigger = item.querySelector('.faq-trigger');
+			const panel = item.querySelector('.faq-panel');
+
+			trigger.addEventListener('click', () => {
+				const isOpen = item.classList.contains('active');
+
+				// Close any other open panels for a clean single-accordion feel
+				faqItems.forEach(otherItem => {
+					if (otherItem !== item && otherItem.classList.contains('active')) {
+						otherItem.classList.remove('active');
+						otherItem.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+						otherItem.querySelector('.faq-panel').style.maxHeight = null;
+					}
+				});
+
+				// Toggle current item
+				if (isOpen) {
+					item.classList.remove('active');
+					trigger.setAttribute('aria-expanded', 'false');
+					panel.style.maxHeight = null;
+				} else {
+					item.classList.add('active');
+					trigger.setAttribute('aria-expanded', 'true');
+					// Calculate scrollHeight dynamically for optimal CSS animations
+					panel.style.maxHeight = panel.scrollHeight + "px";
+				}
+			});
+		});
+	});
+</script>
+
+	
 <!-- FOOTER -->
 <footer>
   <div class="w foot-inner">

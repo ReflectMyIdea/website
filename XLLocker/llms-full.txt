@@ -46,4 +46,27 @@ Periodic recheck : The add-in also revalidates authorization every 20 minutes, s
 * Government, Public Sector : Tender records, agency records, statutory compliance checklist.
 
 
+# FAQs
+## What is XLLocker?
+### An Excel add-in that dynamically controls who can open the locked file, without sharing passwords.
 
+## Why isn’t a password enough?
+### The password travels with the file when it’s shared, so nothing stops it reaching an unauthorised person.
+
+## How is access controlled?
+## By system (Hardware Lock), Network Domain, Active Directory group, MFA (TOTP via Microsoft Authenticator), or a custom authorisation process
+
+## What happens when an employee leaves?
+### The admin removes them from the AD group and access is revoked. 
+
+## What about a file that’s already open?
+### The add-in periorically re-checks authorisation, so it re-locks shortly after access is removed.
+ 
+## Is there an audit trail?
+## Yes, a real-time activity log covers file open/close, authorisation status and unauthorised access attempts.
+
+## How is it installed?
+### As an Excel add-in with its own ribbon tab.
+
+# Get in Touch
+## Email your requirement to samit@reflectcode.com

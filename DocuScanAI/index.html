@@ -412,6 +412,134 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
 #lb img{max-width:92vw;max-height:88vh;border-radius:12px;box-shadow:0 24px 60px rgba(0,0,0,.6);object-fit:contain}
 #lb-x{position:fixed;top:18px;right:22px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.18);border:none;color:#fff;font-size:1.4rem;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:10000}
 #lb-x:hover{background:rgba(255,255,255,.35)}
+
+
+/* DocuGen Brand System Styling */
+        :root {
+            --primary-navy: #0d1b2a;
+            --accent-teal: #008080;
+            --text-dark: #333333;
+            --bg-light-grey: #f4f6f8;
+            --border-color: #e1e4e8;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+            background-color: var(--white);
+        }
+
+/* FAQ Section Wrapper */
+        .faq-section-wrapper {
+            background-color: var(--bg-light-grey);
+            padding: 60px 20px;
+            border-radius: 12px;
+            max-width: 900px;
+            margin: 40px auto;
+            box-sizing: border-box;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-header {
+            text-align: center;
+            font-size: 2.25rem;
+            color: var(--primary-navy);
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        /* Accordion Item */
+        .faq-item {
+            background-color: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+            transition: border-color 0.3s ease;
+        }
+
+        .faq-item:hover {
+            border-color: var(--accent-teal);
+        }
+
+        /* Accordion Trigger Button */
+        .faq-trigger {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 20px 24px;
+            text-align: left;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--primary-navy);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            outline: none;
+            transition: color 0.3s ease;
+        }
+
+        .faq-trigger:hover {
+            /* color: var(--accent-teal); */
+			
+        }
+
+        /* Accordion Icon */
+        .faq-icon {
+            font-size: 1.25rem;
+            font-weight: 300;
+            color: var(--accent-teal);
+            transition: transform 0.3s ease;
+            user-select: none;
+        }
+
+        /* Active State Classes */
+        .faq-item.active {
+            border-color: var(--accent-teal);
+        }
+
+        .faq-item.active .faq-trigger {
+		   /* color: var(--accent-teal); */
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(45deg);
+        }
+
+        /* Accordion Content Panel */
+        .faq-panel {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+            background-color: var(--white);
+        }
+
+        .faq-content {
+            padding: 0 24px 24px 24px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            font-size: 1rem;
+        }
+
+        .faq-content ul {
+            margin: 8px 0 0 0;
+            padding-left: 20px;
+        }
+
+        .faq-content li {
+            margin-bottom: 6px;
+        }
+
 </style>
 </head>
 
@@ -421,7 +549,6 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-PD67NKN7H1');
 </script>
 
@@ -511,8 +638,15 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
       <div class="flow-pill">Data in your system</div>
     </div>
 
-    <div class="up" style="text-align:center;margin-top:4rem;margin-bottom:2rem">
-      <h3 style="color:#fff;font-size:1.5rem;font-weight:700">How it works</h3>
+	
+  </div>
+</section>
+
+<section class="ind" id="industries">
+  <div class="w">
+
+    <div class="up" style="text-align:center;margin-bottom:2rem">
+      <h3 style="font-size:1.5rem;font-weight:700">How it works</h3>
     </div>
     <div class="steps">
       <div class="step-card up d1"><div class="step-n">1</div><h3>Scan &amp; upload</h3><p>Upload scanned PDFs of your existing forms or receipts. No change to your paper format is needed.</p></div>
@@ -522,7 +656,7 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
     </div>
 	
 	<div class="up" style="text-align:center;margin-top:4rem;margin-bottom:2rem" id="casestudy">
-		<h3 style="color:#fff;font-size:1.5rem;font-weight:700">DocuScanAI in Action — Live Software Screenshots</h3>
+		<h3 style="font-size:1.5rem;font-weight:700">DocuScanAI in Action — Live Software Screenshots</h3>
 	</div>
 	
 	<div class="shots-vertical-container">
@@ -531,48 +665,55 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
           <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
             <img src="img01.png" alt="Source scanned data" style="width:100%;display:block">
           </div>
-          <p style="text-align:center;font-size:.98rem;color:white;margin-top:.6rem">Step 1 · Source multi page scanned PDF to process</p>
+          <p style="text-align:center;font-size:.98rem;margin-top:.6rem">Step 1 · Source multi page scanned PDF to process</p>
         </div>
 		
 		<div class="shot-display-card">
           <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
             <img src="img02.png" alt="Upload the file to server" style="width:100%;display:block">
           </div>
-          <p style="text-align:center;font-size:.98rem;color:white;margin-top:.6rem">Step 2 · Upload the PDF file &amp; click Read receipts</p>
+          <p style="text-align:center;font-size:.98rem;margin-top:.6rem">Step 2 · Upload the PDF file &amp; click Read receipts</p>
         </div>
 		
         <div class="shot-display-card">
           <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
             <img src="img03.png" alt="Input file scanned and converted" style="width:100%;display:block">
           </div>
-          <p style="text-align:center;font-size:.98rem;color:white;margin-top:.6rem;margin-bottom:1.5rem">Step 3 · System scans and identify values in each fields &amp; displays confidence and error for human review</p>
+          <p style="text-align:center;font-size:.98rem;margin-top:.6rem;margin-bottom:1.5rem">Step 3 · System scans and identify values in each fields &amp; displays confidence and error for human review</p>
         </div>
 		
 		<div class="shot-display-card">
           <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
             <img src="img04.png" alt="Inplace corrections" style="width:100%;display:block">
           </div>
-          <p style="text-align:center;font-size:.98rem;color:white;margin-top:.6rem;margin-bottom:1.5rem">Step 4 · User does the in-place correction for required fields</p>
+          <p style="text-align:center;font-size:.98rem;margin-top:.6rem;margin-bottom:1.5rem">Step 4 · User does the in-place correction for required fields</p>
         </div>
 		
 		<div class="shot-display-card">
           <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
             <img src="img05.png" alt="User download scanned data" style="width:100%;display:block">
           </div>
-          <p style="text-align:center;font-size:.98rem;color:white;margin-top:.6rem;margin-bottom:1.5rem">Step 5 · User downloads the excel file</p>
+          <p style="text-align:center;font-size:.98rem;margin-top:.6rem;margin-bottom:1.5rem">Step 5 · User downloads the excel file</p>
         </div>
 
 		<div class="shot-display-card">
           <div style="border-radius:18px;overflow:hidden;border:1px solid var(--border);box-shadow:0 24px 48px -12px rgba(12,31,63,.18)" onclick="openLB(this.querySelector('img'))">
             <img src="img06.png" alt="Final excel file for review" style="width:100%;display:block">
           </div>
-          <p style="text-align:center;font-size:.98rem;color:white;margin-top:.6rem;margin-bottom:1.5rem">Step 6 · The downloaded excel file for final review</p>
+          <p style="text-align:center;font-size:.98rem;margin-top:.6rem;margin-bottom:1.5rem">Step 6 · The downloaded excel file for final review</p>
         </div>
 
-		
-    </div>
-	  
-	<div class="up" style="text-align:center;margin-top:4rem;margin-bottom:2rem">
+    </div>	
+  </div>
+</section>	
+	
+	
+	
+	
+<section class="docugen" id="docuscanai">
+  <div class="w">	
+		  
+	<div class="up" style="text-align:center;margin-bottom:2rem">
 		<h3 style="color:#fff;font-size:1.5rem;font-weight:700">Use various OCR options</h3>
 	</div>
 	
@@ -662,7 +803,7 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
     </div>
   </div>
   <div class="frow">
-    <label class="fl">What do you want to digitise?</label>
+    <label class="fl">What do you want to scan?</label>
     <textarea class="ft" id="ins-workflow" placeholder="Describe the forms or receipts you want to capture into Excel…" required></textarea>
   </div>
   <button type="submit" class="fsub">Get in Touch</button>
@@ -670,6 +811,153 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
 </form>
   </div>
 </section>
+
+
+<!-- Target FAQ Accordion Component -->
+<section class="faq-section-wrapper">
+	<div class="faq-container">
+		<h2 class="faq-header">Frequently Asked Questions</h2>
+
+		<!-- Item 1: What -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>What is DocuScanAI?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Reads handwritten and printed entries from scanned documents and use AI to improve accuracy before recording them in your system.
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>What type of documents does it work with?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Any structured form or receipt with fixed fields, once each field is defined on a template along with its type. It is used to improve the accuracy. 
+				</div>
+			</div>
+		</div>
+		
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>How accurate is it?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Its highly accurate, however it depends on handwriting quality and the OCR engine. Uncertain values are automatically flagged for review and in-place correction. We measure accuracy on your own samples during the POC and connect to suitable OCR engine to improve accuracy.
+				</div>
+			</div>
+		</div>
+		
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Does a person still check the results?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Yes. Low-confidence fields are highlighted and values can be corrected before export. 
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Is our data sent to the cloud?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					An offline mode keeps documents on your premises. Azure AI Document Intelligence use cloud. DocuScanAI can use both.
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Does it handle tilted or shifted scans?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Yes, it automatically aligns the scans before processing.
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Does it check the data?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Yes, dates, amounts and IDs are validated by field type.
+				</div>
+			</div>
+		</div>
+
+		<!-- Item 8: Processing Automation -->
+		<div class="faq-item">
+			<button class="faq-trigger" aria-expanded="false">
+				<span>Which languages and scan formats are supported?</span>
+				<span class="faq-icon" aria-hidden="true">+</span>
+			</button>
+			<div class="faq-panel">
+				<div class="faq-content">
+					Any language supported by OCR engine. We can also connect to OCR engine tuned for your language.  
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+    <!-- Smooth Vanilla JavaScript Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(item => {
+                const trigger = item.querySelector('.faq-trigger');
+                const panel = item.querySelector('.faq-panel');
+
+                trigger.addEventListener('click', () => {
+                    const isOpen = item.classList.contains('active');
+
+                    // Close any other open panels for a clean single-accordion feel
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item && otherItem.classList.contains('active')) {
+                            otherItem.classList.remove('active');
+                            otherItem.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+                            otherItem.querySelector('.faq-panel').style.maxHeight = null;
+                        }
+                    });
+
+                    // Toggle current item
+                    if (isOpen) {
+                        item.classList.remove('active');
+                        trigger.setAttribute('aria-expanded', 'false');
+                        panel.style.maxHeight = null;
+                    } else {
+                        item.classList.add('active');
+                        trigger.setAttribute('aria-expanded', 'true');
+                        // Calculate scrollHeight dynamically for optimal CSS animations
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            });
+        });
+    </script>
+	
+
 
 <!-- FOOTER -->
 <footer>
