@@ -405,6 +405,10 @@ section{padding:64px 0}
 .step-card p{font-size:1.05rem;color:var(--ink2);line-height:1.6}
 .result-strip{margin-top:2.5rem;background:var(--navy);color:#fff;border-radius:var(--r);padding:1.5rem 2rem;text-align:center;font-size:1.05rem;font-weight:500;letter-spacing:-.01em}
 
+/* Ask AI */
+.ai-hover-box {display: flex; justify-content: center; align-items: center; border: 2px solid transparent; border-radius: 12px; transition: border-color 0.3s ease;}
+.ai-hover-box:hover {border-color: gray;}
+
 /* DOCUGEN — dark */
 .docugen{background:var(--navy);color:#fff}
 .docugen .sec-label{color:#93c5fd}
@@ -757,15 +761,36 @@ footer{background:var(--bg2);color:var(--ink2);padding:2.5rem 0}
 <section class="approach" id="approach">
   <div class="w">
     <div class="approach-intro up">
-      <div class="sec-label" style="margin-top:2.5rem">How We Work</div>
       <h2 class="sec-h">Built around your problem,<br>Reuse existing system.</h2>
       <p class="sec-p">We rarely want to throw away what works.<br>We want to continue the legacy process and improve<br>with less risk, less retraining, and less disruption.</p>
     </div>
+	
+	<!-- Ask AI -->
+	<div class="result-strip up" style="">
+		<div class="" style="display: flex; align-items: center;">
+			<a class="ai-hover-box" href="https://chatgpt.com/?q=Read%20https%3A%2F%2Fwww.reflectmyidea.com%2F%20and%20tell%20me%20about%20this%20in%20a%20short%20paragraph%2C%20and%20give%20top%205%20important%20features%20in%20a%20bullet%20points." target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
+			  <img src="chatgpt-icon.svg" alt="ChatGPT" style="width:15%"></img>
+			  <span>Ask ChatGPT</span>
+			</a>
+
+			<a class="ai-hover-box" href="https://www.perplexity.ai/?q=Read%20https%3A%2F%2Fwww.reflectmyidea.com%2Findex.html.%20Tell%20me%20about%20this%20in%20a%20short%20paragraph%2C%20and%20their%20offerings%20in%20bullet%20points." target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
+			  <img src="perplexity-ai-icon.svg" alt="ChatGPT" style="width:15%"></img>
+			  <span>Ask Perplexity</span>
+			</a>
+			
+		  	<a class="ai-hover-box" href="https://www.google.com/search?udm=50&source=https%3A%2F%2Fwww.reflectmyidea.com%2Findex.html&q=Read%20https%3A%2F%2Fwww.reflectmyidea.com%2Findex.html.%20Tell%20me%20about%20this%20in%20a%20short%20paragraph%2C%20and%20their%20offerings%20in%20bullet%20points." target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
+			  <img src="google-gemini-icon.svg" alt="ChatGPT" style="width:15%"></img>
+			  <span>Ask Google Gemini</span>
+			</a>			
+		</div>
+	</div>
+	
+	<div class="sec-label" style="margin-top:2.5rem">How We Work</div>
     <div class="steps">
-      <div class="step-card up d1"><div class="step-n">1</div><h3>Feel the pain first-hand</h3><p>We dive into your legacy system and experience the friction directly, not just via meetings. Understanding the problem clearly is the only path to an acceptable solution.</p></div>
-      <div class="step-card up d2"><div class="step-n">2</div><h3>Research &amp; prove it</h3><p>We identify tools that integrate cleanly with your system, then build multiple Proof-of-Concepts so you can validate the approach before committing to anything.</p></div>
-      <div class="step-card up d3"><div class="step-n">3</div><h3>Build step by step</h3><p>After alignment, we implement incrementally, each step is small, reviewable, and low-risk. No big-bang cutover.</p></div>
-      <div class="step-card up" style="transition-delay:.4s"><div class="step-n">4</div><h3>Empower your team</h3><p>Shortcuts, parameterised steps, custom report formats, small features that dramatically reduce daily effort and ensure genuine adoption.</p></div>
+      <div class="step-card up d1"><div class="step-n">1</div><h4>Feel the pain first-hand</h4><p>We dive into your legacy system and experience the friction directly, not just via meetings. Understanding the problem clearly is the only path to an acceptable solution.</p></div>
+      <div class="step-card up d2"><div class="step-n">2</div><h4>Research &amp; prove it</h4><p>We identify tools that integrate cleanly with your system, then build multiple Proof-of-Concepts so you can validate the approach before committing to anything.</p></div>
+      <div class="step-card up d3"><div class="step-n">3</div><h4>Build step by step</h4><p>After alignment, we implement incrementally, each step is small, reviewable, and low-risk. No big-bang cutover.</p></div>
+      <div class="step-card up" style="transition-delay:.4s"><div class="step-n">4</div><h4>Empower your team</h4><p>Shortcuts, parameterised steps, custom report formats, small features that dramatically reduce daily effort and ensure genuine adoption.</p></div>
     </div>
     <div class="result-strip up">Legacy systems is improved with far less time and cost than a full replacement.</div>
   </div>
